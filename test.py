@@ -76,4 +76,4 @@ for index, line in enumerate(output_lines):
         line = pattern2.sub(sign_str, line)
         output_lines[index] = line
 
-print("\n".join(output_lines))
+print("".join(output_lines))
